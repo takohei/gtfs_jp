@@ -8,9 +8,9 @@
 
 平成28年12月に内閣府が行った世論調査では、路線バスの利用手段・経路などを調べる手段としては、「インターネット等の経路検索サービス」を挙げた者の割合が41.3％と最も高く、居住地別では大都市、年代別では50歳代までの回答者でその割合が高くなっています。
 
-![route_research_method_1](C:/work/github/takohei/gtfs_jp/img/route_research_method_1.png)
+![route_research_method_1](img/route_research_method_1.png)
 
-![oute_research_method_2](C:/work/github/takohei/gtfs_jp/img/route_research_method_2.png)
+![oute_research_method_2](img/route_research_method_2.png)
 
 
 
