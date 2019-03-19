@@ -1,4 +1,4 @@
-## 導入に向けて
+### 導入に向けて
 
 [標準的バス情報フォーマットとは](whatis.md)
 
@@ -6,17 +6,17 @@
 
 [データ整備・活用事例](examples.md)
 
-## データ整備・提供方法
+### データ整備・提供方法
 
 [データ整備・提供の手引き](creation_guide.md)
 
 [データ配信方法](distribution.md)
 
-[経路検索コンテンツプロバイダ等への提供](contents_providers.md)
+[経路検索事業者への提供](contents_providers.md)
 
-## 技術者向け情報
+### データフォーマット解説書
 
-静的データフォーマット仕様書
+GTFS-JP（静的データフォーマット）仕様書
 
-[動的データ(GTFS-Realtime)解説書](gtfs-realtime.md)
+[GTFS-Realtime（動的データフォーマット）ガイドライン](gtfs-realtime.md)
 
