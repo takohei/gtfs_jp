@@ -11,24 +11,22 @@ Transit Feed Specification)を基本としているため、整備した情報�
 
 ### 導入に向けて
 
-[標準的バス情報フォーマットとは](whatis.md)
-
-[導入のメリット](merit.md)
+[はじめよう！「標準的なバス情報フォーマット」](introduction.md)
 
 [データ整備・活用事例](examples.md)
 
 ### データ整備・提供方法
 
-[データ整備・提供の手引き](creation_guide.md)
+[データ整備・提供の手引き](how_to_start.md)
 
-[データ配信方法](distribution.md)
+[経路検索事業者等への提供](service_providers.md)
 
-[経路検索事業者への提供](contents_providers.md)
-
-### データフォーマット解説書
+### 技術情報
 
 GTFS-JP（静的データフォーマット）仕様書
 
-[GTFS-Realtime（動的データフォーマット）ガイドライン](gtfs-realtime.md)
+[GTFS Realtime（動的データフォーマット）ガイドライン](gtfs-realtime_guidelines.md)
 
-## 
+[配信方法ガイドライン](distribution_guidelines.md)
+
+ 
