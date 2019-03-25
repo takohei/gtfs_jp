@@ -1,3 +1,5 @@
+<div style="text-align: right;">国土交通省　平成31年3月27日版</div>
+
 # データ整備・活用事例
 
 ## 全国のデータ整備状況
@@ -15,14 +17,14 @@
 
 データ整備事例としては下記の事例があります。
 
-### 動的データ（GTFSリアルタイム）整備事例
+### 動的データ（GTFS Realtime）整備事例
 
 | バス事業者                   | 静的データ出力システム   | 動的データ出力システム     | オープン化                                                   |
 | ---------------------------- | ------------------------ | -------------------------- | ------------------------------------------------------------ |
 | 宇野自動車                   | その筋屋(Sujiya Systems) | バスまだ？(Sujiya Systems) | [配信サイト](http://www3.unobus.co.jp/opendata/)             |
 | 両備バス・岡電バス           | Bus-Vision(リオス)       | Bus-Vision(リオス)         | [配信サイト](https://loc.bus-vision.jp/ryobi/view/opendata.html) |
 | 中津川市                     | その筋屋(Sujiya Systems) | Sky Brain(ヴァル研究所)    | [配信サイト](http://www.city.nakatsugawa.gifu.jp/page/083409.html) |
-| 佐賀市交通局（佐賀県 事業）  | その筋屋(Sujiya Systems) |                            | [配信サイト](http://opendata.sagabus.info/)                  |
+| 佐賀市交通局（佐賀県 事業）  | その筋屋(Sujiya Systems) | ユニトランド 製            | [配信サイト](http://opendata.sagabus.info/)                  |
 | みちのりホールディングス各社 | PTD-HS(ジョルダン)       | PTD-HS(ジョルダン)         |                                                              |
 
 ![1552959576751](img/1552959576751.png)
@@ -41,7 +43,7 @@
 | 青森市交通部 | その筋屋               | [配信サイト](https://www.city.aomori.aomori.jp/kotsu-kanri/koutsu/oshirase/20180401gtfso-punnde-ta.html) | 公営バスによる自社整備                                     |
 | 富山県内各社 | その筋屋, 西沢ツール   | [配信サイト](http://opendata.pref.toyama.jp/pages/gtfs_jp.htm) | 県事業、市町による整備<br />地域IT団体(Code for)による支援 |
 | 群馬県内各社 | PTD-HS(ジョルダン)     | [配信サイト](https://gma.jcld.jp/GMA_OPENDATA/)              | 県事業、経路検索CPによる整備                               |
-| 山梨県内各社 | 山梨大学, YSK e-com    | [配信サイト](http://opendata.busmaps.jp/)                    | 県バス協会、地元IT企業、大学による協働                     |
+| 山梨県内各社 | 山梨大学, YSK e-com 製 | [配信サイト](http://opendata.busmaps.jp/)                    | 県バス協会、地元IT企業、大学による協働                     |
 
 ![1552959665633](img/1552959665633.png)
 
@@ -55,9 +57,11 @@
 
 #### 中津川市　アンケート調査
 
-  * 「標準的なバス情報フォーマット」に基づき、静的・動的データを整備し、Google Mapsに掲載。
+  * 「標準的なバス情報フォーマット」に基づき、静的・動的データを整備し、Google Mapsに掲載、病院の待合室にサイネージを設置。
   * 北恵那バス馬籠線の外国人乗客の2割以上がGoogle経路検索でバスの存在を認知
-  * http://www.city.nakatsugawa.gifu.jp/page/081195.html
+      * http://www.city.nakatsugawa.gifu.jp/page/081195.html
+  * 病院の待合室に設置されたサイネージについて、画面表示について65%が「わかりやすい」、バスが利用しやすくなるかについて79%が「思う」と回答
+      * http://www.city.nakatsugawa.gifu.jp/page/083350.html
 
 ### 静的データ整備後の検索数増加
 
@@ -75,7 +79,7 @@
   * http://www.city.asahikawa.hokkaido.jp/kurashi/452/453/454/d056483.html
 * 店舗内サイネージ設置により14%が路線バス利用頻度増加
   * http://wwwtb.mlit.go.jp/hokkaido/bunyabetsu/tiikikoukyoukoutsuu/41tyousakentoukekka/tagyousyurenkei/gaiyouban.pdf
-* ※GTFSリアルタイムではなく独自システムによる効果
+* ※GTFS Realtimeではなく独自システムによる効果
 
 ## 交流・普及
 
@@ -104,6 +108,8 @@
 
 * 土木学会　インフラデータチャレンジ　GTFS-JP賞
   * http://jsce-idc.jp/theme.html
-* アーバンデータチャレンジ2018　アイディア部門銀賞・オープンガバメント推進協議会賞銀賞
-  Code for Saga「バスストップ」
-  * https://code4saga.org/archives/898
+* アーバンデータチャレンジ2018
+  * http://urbandata-challenge.jp/highlight/udc2018prize
+  * アイディア部門銀賞・オープンガバメント推進協議会賞銀賞
+    Code for Saga「バスストップ～乗り降りお知らせアプリ～」
+    * https://code4saga.org/archives/898

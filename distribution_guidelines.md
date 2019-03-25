@@ -1,6 +1,7 @@
-<h4 style="text-align: right;">【資料5】</div>
+<div style="text-align: right;">国土交通省　平成31年3月27日版</div>
 
-# 「標準的なバス情報フォーマット」配信方法ガイドライン（案）
+
+# 「標準的なバス情報フォーマット」<br>配信方法ガイドライン
 
 ## ライセンス
 
@@ -32,14 +33,16 @@
 
 ダイヤ改正の前後にデータを適切かつ迅速に取り込めるよう、下記の方法を推奨します。
 
-### 現行データを固定URLで取得できるようにする
+### 当日の静的データと動的データを固定URLで取得できるようにする
 
-データ利用者が自動的に現行データを取得できるように、現行版静的データと動的データは固定URLで取得できるようにします。アクセス制限を行う場合は、ログイン等を必要とせず、APIキーを使用して取得できるようにします。
+データ利用者が自動的に現行データを取得できるように、当日の静的データと動的データは固定URLにて提供することが望ましいです。アクセス制限を行う場合は、ログイン等を必要とせず、APIキーを使用して取得できるようにします。
 
-ダイヤ改正日にファイル名の差し替え等を行うことが望ましいですが、データを手動で掲載している場合は。
+- 当日の静的データのURL例：~/gtfs/gtfs.zip
+- 動的データのURL例：~/gtfs-rt/trip_update.pb
 
-* 現行版静的データのURL例：~/gtfs/gtfs.zip
-* 動的データのURL例：~/gtfs-rt/trip_update.pb
+時刻の変更だけであれば、臨時ダイヤやダイヤ改正後の情報も1つの静的データに予め含めることができます。
+
+ダイヤ改正日にファイル名の差し替え等を行うことが望ましいですが、データを手動で掲載しており、動的データの提供やデジタルサイネージ等による静的データの自動取込を行っていないのであれば、ファイル名の差し替えが遅れてもやむを得ません。
 
 ### 予定版の静的データを取得できるようにする
 
@@ -57,8 +60,8 @@
 | 静的データ | 更新日        | 2019-03-10                                                   |
 |            | 改正日        | 2019-04-01                                                   |
 |            | 更新内容      | ダイヤ改正（公園線開業、時刻修正）                           |
-|            | 静的データURL | https://www.agency.co.jp/opendata/gtfs/recently/gtfs.zip     |
+|            | 静的データURL | https://www.dummy_agency.co.jp/gtfs/gtfs.zip                 |
 | 動的データ | 更新間隔      | 15秒間隔                                                     |
-|            | 動的データURL | https://www.agency.co.jp/opendata/gtfs-rt/recently/trip_update.pb<br />https://www.agency.co.jp/opendata/gtfs-rt/recently/vehicle_position.pb |
+|            | 動的データURL | https://www.dummy_agency.co.jp/gtfs-rt/trip_update.pb<br />https://www.dummy_agency.co.jp/gtfs-rt/vehicle_position.pb |
 
 
